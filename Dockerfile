@@ -1,5 +1,5 @@
 # 1. Use an official Java runtime as a base image
-FROM openjdk:11-jre-slim
+FROM openjdk:17-jdk-alpine
 
 # 2. Set the working directory inside the container
 WORKDIR /app
