@@ -8,7 +8,7 @@ WORKDIR /app
 # Replace 'your-graphhopper.jar' with the actual name of your JAR file
 COPY graphhopper.jar /app/graphhopper.jar
 COPY config.yml /app/config.yml  # If you have a config file
-COPY map.osm /app/map.osm  # If you have OSM files (replace 'osm-data' with your actual folder name)
+COPY map.osm /app/map.osm 
 
 # 4. Expose the port GraphHopper will run on (default is 8989)
 EXPOSE 8989
